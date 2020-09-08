@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Generic;
+
+/**
+ *
+ * @author 3z
+ */
+public class StackDemo {
+    public static void main(String[] args){
+        Stack<String> strStack = new Stack<String>();
+        
+        strStack.push("CS");
+        strStack.push("SE");
+        strStack.print();
+        strStack.push("IS");
+        strStack.push("CME");
+        strStack.print();
+        
+        
+   
+        
+    }
+}
